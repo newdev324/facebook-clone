@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+*:focus{
+    outline: none;
+}
+:root{
+--fb-blue: #0a86f0;
+--fb-black: #090909;
+--fb-red: #ee2340;
+--fb-green: #3db557;
+--fb-yellow: #f6b024;
+--fb-bgcolor: #eef0f3;
+--fb-white: #ffffff;
+--fb-whitebg: #FFFFFF;
+--dark-color-text: #090909;
+--light-color-text: #606770;
+--button-link: #e0e2e8;
+--stories-bg: #090909;
+}
+body{
+    background: var(--fb-bgcolor);
+    font-family: Helvetica, Arial, sans-serif;
+    color: var(--fb-black);
+}
+header{
+    background: var(--fb-whitebg);
+    height: 62px;
+    display: flex;
+    padding: 0 15px;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    box-shadow: 0px 0px 5px 0px rgba(0,0,0,0.5);
+    position: fixed;
+    z-index: 20;
+    top: 0;
+    left: 0;
+}
+.header__logo-section{
+    display: flex;
+}
+.header__logo-icon .fa-facebook{
+    font-size: 40px;
+    color: var(--fb-blue);
+}
+.header__logo-search{
+    position: relative;
+    margin-left: 10px;
+}
+.header__logo-search .fa-search{
+    position: absolute;
+    top: 14px;
+    left: 10px;
+    color: var(--light-color-text);
+}
+.header__logo-search input[type="text"]{
+    background: var(--fb-bgcolor);
+    padding: 10px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    color: var(--light-color-text);
+    padding-left: 35px;
+    font-weight: 300;
+    border: none;
+}
