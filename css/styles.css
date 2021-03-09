@@ -106,7 +106,51 @@ header{
     align-items: center;
     border-radius: 50%;
     position: absolute;
-    top: -15px;
-    right: -15px;
+    top: -12px;
+    right: -10px;
     font-weight: 700;
+}
+.header__account{
+    display: flex;
+
+}
+.header__actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.header__user-img{
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    margin-right: 10px;
+
+}
+.header__user-name{
+    font-size: .9rem;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.header__circle-link{
+    background: var(--button-link);
+    height: 40px;
+    width: 40px;
+    display: flex;
+    border-radius: 50%;
+    color: var(--dark-color-text);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    margin-right: 20px;
+    
+}
+.header__circle-link .fasort-down{
+    position: relative;
+    top: -3px;
+    font-size: 1.4rem;
+}
+.header__link-icon{
+    font-size: .9rem;
+
 }
