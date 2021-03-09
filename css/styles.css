@@ -64,3 +64,49 @@ header{
     font-weight: 300;
     border: none;
 }
+.header__menu-tabs{
+    display: flex;
+    max-width: 600px;
+    width: 100%;
+    flex: none;
+}
+.header__menu-tab{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 600px;
+    height: 62px;
+    border-bottom: 4px solid var(--fb-whitebg);
+    color: var(--light-color-text);
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+.header__menu-tab--active, .header__menu-tab:hover{
+    border-bottom: 4px solid var(--fb-blue);
+
+}
+.header__menu-tab:hover .fas, .header__menu-tab:hover .fab{
+    color: var(--fb-blue);
+}
+.header__menu-tab--active .fas, .header__menu-tab--active .fab{
+    color: var(--fb-blue);
+}
+.header__menu-tab .fas, .header__menu-tab .fab{
+    position: relative;
+}
+.header__notification-bubble{
+    font-family: Arial, Helvetica, sans-serif;
+    background: var(--fb-red);
+    color: white;
+    width: 20px;
+    height: 20px;
+    font-size: .8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+    font-weight: 700;
+}
