@@ -83,7 +83,6 @@ header{
 }
 .header__menu-tab--active, .header__menu-tab:hover{
     border-bottom: 4px solid var(--fb-blue);
-
 }
 .header__menu-tab:hover .fas, .header__menu-tab:hover .fab{
     color: var(--fb-blue);
@@ -124,7 +123,6 @@ header{
     height: 35px;
     width: 35px;
     margin-right: 10px;
-
 }
 .header__user-name{
     font-size: .9rem;
@@ -143,7 +141,6 @@ header{
     align-items: center;
     text-decoration: none;
     margin-right: 20px;
-    
 }
 .header__circle-link .fasort-down{
     position: relative;
@@ -152,5 +149,65 @@ header{
 }
 .header__link-icon{
     font-size: .9rem;
+}
+.content-area--feed{
+    padding: 90px 15px 20px;
+    display: flex;
+}
+.sidenav__item{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+.sidenav__item-img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-right: 20px;
+}
+.sidenav__item-title{
+    font-size: 1rem;
+    font-weight: 400;
+}
+.sidenav__item-icon{
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+    margin-right: 20px;
+}
+.sidenav__item-notification{
+    color: var(--fb-blue);
+    margin-top: 5px;
+    font-size: .75rem;
+    display: block;
+    font-weight: 300;
+}
+.sidenav__item-notification-circle{
+    background: var(--fb-blue);
+    display: inline-block;
+    width: 7px;
+    height: 7px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+.sidenav__item-icon--circle-white{
+    background: var(--button-link);
+    border-radius: 50%;
+    font-size: .9rem;
+}
+.sidenav__item-icon--circle-white{
+    background: var(--fb-blue);
+    border-radius: 50%;
+    font-size: 1rem;
+}
+.sidenav__item-icon .fas, .sidenav__item-icon .fab{
+    color: var(--fb-blue);
 
+}
+.sidenav__item-icon--circle-white .fas, .sidenav__item-icon--circle-white .fab{
+    color: var(--fb-white);
+    
 }
