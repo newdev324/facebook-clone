@@ -154,6 +154,7 @@ header{
 .content-area--feed{
     padding: 90px 15px 20px;
     display: flex;
+    height: 2500px;
 }
 .sidenav{
     width: 25%;
@@ -428,4 +429,80 @@ header{
 }
 .photopost__image img{
    width: 100%; 
+}
+.photopost__stats{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    color: var(--light-color-text);
+    font-weight: 300;
+    font-size: .9rem;
+}
+.photopost__stats-emojis{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.emoji-circle{
+    display: flex;
+    width: 22px;
+    height: 22px;
+    background: black;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: .4rem;
+    border-radius: 50%;
+    border: 2px solid white;
+    position: relative;
+}
+.emoji-circle:nth-child(1){
+    z-index: 3;
+}
+.emoji-circle:nth-child(2){
+    left: -5px;
+    z-index: 2;
+}
+.emoji-circle:nth-child(3){
+    left: -10px;
+    z-index: 1;
+}
+.emoji-circle--blue{
+    background: linear-gradient(0deg, rgba(4,60,108,1) 0%, rgba(10,134,240,1)100%);
+}
+.emoji-circle--red{
+    background: linear-gradient(0deg, rgba(92,15,26,1) 0%, rgba(238,35,64,1)100%);
+}
+.emoji-circle--yellow{
+    background: #000000;
+    overflow: hidden;
+}
+.emoji-circle-blue .fa-thumbs-up{
+    position: relative;
+    top: -1px;
+}
+.emoji-circle--yellow .fa-surprise{
+    color: rgba(246,176,36,1);
+    font-size: 1.3rem;
+    position: relative;
+    top: -1px
+}
+.photopost__actions{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.photopost__link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--light-color-text);
+    width: 100%;
+    text-decoration: none;
+}
+.photopost__link .fas{
+    margin-right: 10px;
 }
