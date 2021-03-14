@@ -20,6 +20,23 @@
 --icon-circle-bg: linear-gradient(0deg, rgba(65,67,69,1) 0%, rgba(107,110,114,1) 100%);
 --shadow-color: rgba(,0,0,0.25);
 }
+@media (prefers-color-scheme: dark){
+    :root{
+        --fb-blue: #7774d1;
+        --fb-black: #ffffff;
+         --fb-red: #ee2340;
+         --fb-green: #6fcf97;
+         --fb-yellow: #f6b024;
+         --fb-bgcolor: #141432;
+         --fb-white: #ffffff;
+          --fb-whitebg: #1d1d42;
+          --dark-color-text: #FFFFFF;
+          --light-color-text: #d4d4dc;
+          --button-link: #524eee;
+          --stories-bg: #524eee;
+          --icon-circle-bg: #6fcf97;
+    }
+}
 body{
     background: var(--fb-bgcolor);
     font-family: Helvetica, Arial, sans-serif;
